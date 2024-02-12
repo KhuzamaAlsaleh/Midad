@@ -1,0 +1,45 @@
+table{
+    border: 10px;
+    width: 100%;
+}
+table,th,td{
+    border: 1px solid rgb(58, 5, 94);
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+}
+th{
+    background-color: aquamarine;
+}
+.t1{
+    background-color: rgb(157, 241, 171);
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a:hover{
+    
+    background-color:rgb(19, 184, 196);
+   
+    
+}
+a:active{
+    background-color:rgb(135, 155, 222);
+}
+a::selection{
+    background-color:rgb(222, 135, 196);
+}
+h1{
+    text-align: center;
+    color:green;
+}
+.f{
+    background-color: rgb(170, 197, 163);
+}
